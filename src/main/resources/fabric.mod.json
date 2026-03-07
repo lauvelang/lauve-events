@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "lauve-events",
+	"version": "${version}",
+	"name": "lauve-events",
+	"description": "Server-side library adding various hooks into the game.",
+	"authors": [
+		"sylvxa"
+	],
+	"contact": {
+		"sources": "https://github.com/lauvelang/lauve-events"
+	},
+	"license": "MIT",
+	"icon": "assets/lauve-events/icon.png",
+	"environment": "server",
+	"entrypoints": {},
+	"mixins": [
+		"lauve-events.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

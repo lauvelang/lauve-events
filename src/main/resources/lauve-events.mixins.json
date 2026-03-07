@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "lol.sylvie.lauve.events.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "entity.AreaEffectCloudMixin",
+    "entity.LivingEntityMixin",
+    "player.PlayerListMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}
