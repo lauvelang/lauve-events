@@ -5,7 +5,8 @@
   "mixins": [
     "entity.AreaEffectCloudMixin",
     "entity.LivingEntityMixin",
-    "player.PlayerListMixin"
+    "player.PlayerListMixin",
+    "server.MinecraftServerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
