@@ -22,7 +22,7 @@ To add an event, you'll want to:
    3. Optionally, add an `@author` tag, so we can see who the lovely person was that contributed. <3
 3. Add a mixin that posts the event. Make sure any fields that users may want to change can be!
 4. Register it in `LauveEvents`
-   1. The name should be grammatically correct when placed in a `when x:` structure (ex. when `player moves`:).
+   1. The name should generally be snake case (`player_chat`)
 5. Write a GameTest ensuring that your event runs correctly.
    1. If possible, make sure any modifications work (ex. setting the contents of a chat message)
    2. While the other steps are mandatory, we won't reject a PR if everything *but* this is implemented. It would be really appreciated, though!

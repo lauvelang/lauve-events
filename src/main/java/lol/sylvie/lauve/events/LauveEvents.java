@@ -22,8 +22,8 @@ public class LauveEvents {
 	}
 
 	static {
-		add("an area effect cloud applies", AreaEffectCloudApplyEvent.class);
-		add("an entity's body arrow count changes", BodyArrowCountChangeEvent.class);
-		add("a player chats", PlayerChatEvent.class);
+		add("area_effect_cloud_apply", AreaEffectCloudApplyEvent.class);
+		add("body_arrow_count_change", BodyArrowCountChangeEvent.class);
+		add("player_chat", PlayerChatEvent.class);
 	}
 }
